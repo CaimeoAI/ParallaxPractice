@@ -1,47 +1,62 @@
 * {
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.staticback {
-    background: red;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3rem;
 }
 
-.paraback1::after {
-    background-image: url('https://placekitten.com/g/900/700');
+h2 {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
 
-.paraback2::after {
-    background-image: url('https://placekitten.com/g/800/600');
-}
-
-.wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    perspective: 2px;
-}
-
-.section {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 100vh;
-
-    text-shadow: 0 0 5px #000;
-}
-
-.para::after {
-    content: " ";
+.caption {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 100%;
-    z-index: -1;
 }
+
+#cap1 {
+    top: 100px;
+    right: 200px;
+    width: 25%;
+}
+
+#cap2 {
+    bottom: 100px;
+    left: 150px;
+    width: 10%;
+}
+
+#cap3 {
+    top: 300px;
+    right: 300px;
+    width: 40%;
+}
+
+#cap4 {
+    top: 100px;
+    left: 500px;
+    width: 10%;
+}
+
+#cap5 {
+    bottom: 200px;
+    right: 150px;
+    width: 50%
+}
+
+#parallaxsec1 {
+    background: url(https://earlygame.com/uploads/images/_galleryItem2x_webp/40904/Camille-Wallpaper.webp) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+#parallaxsec2 {}
