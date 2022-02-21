@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Parallax Practice</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+
 </head>
 
 <body>
@@ -67,11 +74,6 @@
                     distinctio vitae nulla repellendus? Fugiat, facere debitis sint vel illo porro? Distinctio numquam
                     odit esse recusandae, iusto rerum repellat pariatur deleniti qui at? Quaerat culpa veniam corporis
                     suscipit maiores itaque, temporibus, laborum neque qui minus distinctio!</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur recusandae quaerat libero ex
-                    natus consectetur laudantium sint iure non rerum est optio nostrum officiis sed assumenda quidem
-                    aliquid, quae eligendi temporibus accusamus voluptate ea! Nemo quo odio inventore, animi id
-                    repudiandae, officia facilis magni sapiente recusandae voluptatum architecto odit velit!</p>
             </article>
         </section>
 
@@ -90,6 +92,16 @@
                 </p>
             </article>
         </section>
+
+        <script>
+
+            $('#parallaxsec1').parallax("50%", 0.2);
+            $('#parallaxsec2').parallax("50%", 0.3);
+            $('#parallaxsec3').parallax("50%", 0.5);
+            $('#parallaxsec4').parallax("50%", 0.3);
+            $('#parallaxsec5').parallax("50%", 0.6);
+    
+        </script>
 
     </main>
 </body>

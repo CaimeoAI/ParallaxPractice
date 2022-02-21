@@ -13,6 +13,9 @@ body {
 
 section {
     position: relative;
+    overflow: hidden;
+    height: 1000px;
+    background-size: cover;
 }
 
 h2 {
@@ -28,7 +31,6 @@ h2 {
     padding: 15px;
     border-radius: 10px;
     background: white;
-
 }
 
 #cap1 {
@@ -63,30 +65,20 @@ h2 {
 
 #parallaxsec1 {
     background: url(../img/bg1.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 1100px;
 }
 
 #parallaxsec2 {
     background: url(../img/bg2.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 1500px;
 }
 
 #parallaxsec3 {
     background: url(../img/bg3.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 1200px;
 }
 
 #parallaxsec4 {
     background: url(../img/bg4.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 1400px;
 }
 
 #parallaxsec5 {
     background: url(../img/bg5.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 1000px;
 }
