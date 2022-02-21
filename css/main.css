@@ -25,6 +25,10 @@ h2 {
 
 .caption {
     position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+
 }
 
 #cap1 {
@@ -34,9 +38,9 @@ h2 {
 }
 
 #cap2 {
-    bottom: 100px;
+    bottom: 150px;
     left: 150px;
-    width: 10%;
+    width: 15%;
 }
 
 #cap3 {
@@ -60,25 +64,25 @@ h2 {
 #parallaxsec1 {
     background: url(../img/bg1.jpg) no-repeat fixed;
     background-size: cover;
-    height: 1000px;
+    height: 1100px;
 }
 
 #parallaxsec2 {
     background: url(../img/bg2.jpg) no-repeat fixed;
     background-size: cover;
-    height: 1000px;
+    height: 1500px;
 }
 
 #parallaxsec3 {
     background: url(../img/bg3.jpg) no-repeat fixed;
     background-size: cover;
-    height: 1000px;
+    height: 1200px;
 }
 
 #parallaxsec4 {
     background: url(../img/bg4.jpg) no-repeat fixed;
     background-size: cover;
-    height: 1000px;
+    height: 1400px;
 }
 
 #parallaxsec5 {
