@@ -11,6 +11,10 @@ body {
     line-height: 1.3rem;
 }
 
+section {
+    position: relative;
+}
+
 h2 {
     font-size: 32px;
     line-height: 35px;
@@ -54,9 +58,31 @@ h2 {
 }
 
 #parallaxsec1 {
-    background: url(https://earlygame.com/uploads/images/_galleryItem2x_webp/40904/Camille-Wallpaper.webp) no-repeat fixed;
+    background: url(../img/bg1.jpg) no-repeat fixed;
     background-size: cover;
     height: 1000px;
 }
 
-#parallaxsec2 {}
+#parallaxsec2 {
+    background: url(../img/bg2.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+#parallaxsec3 {
+    background: url(../img/bg3.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+#parallaxsec4 {
+    background: url(../img/bg4.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+#parallaxsec5 {
+    background: url(../img/bg5.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
