@@ -9,6 +9,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
+    color: white;
+}
+
+header {
+    z-index: 6;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: #303136;
+    border-radius: 10px;
+    text-shadow: 1px 1px grey;
+    opacity: .3;
+    -webkit-transition: all 0.4s ease-in;
+}
+
+nav:hover {
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in;
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
 }
 
 section {
@@ -40,7 +74,7 @@ h2 {
     position: absolute;
     padding: 15px;
     border-radius: 10px;
-    background: white;
+    background: #303136;
 }
 
 #cap1 {
