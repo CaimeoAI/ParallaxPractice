@@ -9,6 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
+    background-color: black;
 }
 
 section {
@@ -46,8 +47,8 @@ h2 {
 }
 
 #cap3 {
-    top: 300px;
-    right: 300px;
+    bottom: 100px;
+    left: 200px;
     width: 40%;
 }
 
@@ -60,25 +61,30 @@ h2 {
 #cap5 {
     bottom: 200px;
     right: 150px;
-    width: 50%
+    width: 50%;
 }
 
 #parallaxsec1 {
     background: url(../img/bg1.jpg) no-repeat fixed;
+    z-index: 5;
 }
 
 #parallaxsec2 {
     background: url(../img/bg2.jpg) no-repeat fixed;
+    z-index: 4;
 }
 
 #parallaxsec3 {
     background: url(../img/bg3.jpg) no-repeat fixed;
+    z-index: 3;
 }
 
 #parallaxsec4 {
     background: url(../img/bg4.jpg) no-repeat fixed;
+    z-index: 2;
 }
 
 #parallaxsec5 {
     background: url(../img/bg5.jpg) no-repeat fixed;
+    z-index: 1;
 }
